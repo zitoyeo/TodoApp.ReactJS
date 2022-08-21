@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 
-class HabitaddForm extends Component {
+class HabitaddForm extends PureComponent {
   inputRef = React.createRef();
   formRef = React.createRef();
   onSubmit = (event) => {
